@@ -11,6 +11,7 @@ jobs:
     permissions:
       pull-requests: write
       issues: write
+      contents: write
     steps:
       - name: Validate
         uses: Balastrong/validate-sample-action@main
