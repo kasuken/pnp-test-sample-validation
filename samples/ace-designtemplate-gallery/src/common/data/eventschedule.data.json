@@ -1,0 +1,71 @@
+{
+  "days": [{
+      "id": 1,
+      "date": "Friday, April 1",
+      "events": [{
+          "startTime": "2022-04-01T08:00:00Z",
+          "endTime": "2022-04-01T08:15:00Z",
+          "description": "Welcome to Microsoft Ignite: join your daily hosts who will get you ready for the day."
+        },
+        {
+          "startTime": "2022-04-01T08:15:00Z",
+          "endTime": "2022-04-01T11:00:00Z",
+          "description": "Keynotes: hear from Microsoft leadership on revealing the latest innovations that are shaping the flexible, innovative, and secure business environments of the future."
+        },
+        {
+          "startTime": "2022-04-01T11:30:00Z",
+          "endTime": "2022-04-01T16:00:00Z",
+          "description": "Breakout Sessions: you have the opportunity to select the sessions best suited for your role and interests."
+        }, {
+          "startTime": "2022-04-01T11:30:00Z",
+          "endTime": "2022-04-01T16:00:00Z",
+          "description": "Connection and Learning Zone: connect with your global community in live interactive sessions, join Learning Zone opportunities, get Microsoft Certified and so much more."
+        }, {
+          "startTime": "2022-04-01T19:15:00Z",
+          "endTime": "2022-04-01T22:00:00Z",
+          "description": "Welcome to Microsoft Ignite's APAC broadcast: hear from Microsoft leadership on revealing the latest innovations that are shaping the flexible, innovative, and secure business environments of the future."
+        }, {
+          "startTime": "2022-04-01T22:00:00Z",
+          "endTime": "2022-04-01T01:00:00Z",
+          "description": "Connection Zone: join your community and hear from local Microsoft leaders and experts through Local Connection sessions to find out what's new in your region."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "Saturday, April 2",
+      "events": [{
+          "startTime": "2022-04-02T01:00:00Z",
+          "endTime": "2022-04-01T03:45:00Z",
+          "description": "Welcome to Microsoft Ignite's EMEA broadcast: hear from Microsoft leadership on revealing the latest innovations that are shaping the flexible, innovative, and secure business environments of the future."
+        },
+        {
+          "startTime": "2022-04-01T08:00:00Z",
+          "endTime": "2022-04-01T08:10:00Z",
+          "description": "Welcome to Microsoft Ignite day two: join your daily hosts who will get you ready for the day."
+        },
+        {
+          "startTime": "2022-04-01T08:10:00Z",
+          "endTime": "2022-04-01T10:00:00Z",
+          "description": "Microsoft Into Focus Business Applications: Join us for conversations with Microsoft leaders and engineers to discuss the news and innovations."
+        }, {
+          "startTime": "2022-04-01T08:30:00Z",
+          "endTime": "2022-04-01T16:00:00Z",
+          "description": "Breakout Sessions: you have the opportunity to select the sessions best suited for your role and interests."
+        }, {
+          "startTime": "2022-04-01T08:30:00Z",
+          "endTime": "2022-04-01T16:00:00Z",
+          "description": "Connection and Learning Zone: connect with your global community in live interactive sessions, join Learning Zone opportunities, get Microsoft Certified and so much more."
+        }, {
+          "startTime": "2022-04-01T10:30:00Z",
+          "endTime": "2022-04-01T12:00:00Z",
+          "description": "Microsoft Into Focus Security: hear from Microsoft Leaders and industry experts on trending security topics."
+        }, {
+          "startTime": "2022-04-01T18:00:00Z",
+          "endTime": "2022-04-01T22:00:00Z",
+          "description": "Welcome to Microsoft Ignite day two APAC broadcast: join your daily hosts who will get you ready for the day. join us for the broadcast of Microsoft Into Focus Business Applications and Microsoft Into Focus Security."
+        }
+      ]
+    }
+  ]
+}

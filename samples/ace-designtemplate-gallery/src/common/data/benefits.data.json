@@ -1,0 +1,35 @@
+{
+  "title": "Enrollment is open!",
+  "mainImage": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/ace-designtemplate-gallery/images/benefits/building.png",
+  "headline": "What does the new year have in store?",
+  "introContent": "Take your pick! The past year has been limiting in more ways than one, but now is your chance to finally make a few choices for you and your family. And you have plenty of great options to choose from—we’ve even expanded some benefits to support you more fully in the year ahead! Check out some of the essential updates and enhancements we’ve made below:",
+  "details": [{
+      "id": "0",
+      "title": "Perks+ Reimbursement",
+      "description": "We’ve increased program reimbursement amounts. That’s means more money to put toward you doing you!",
+      "isTeamsDeepLink": true,
+      "linkText": "Learn more the Perks+ reimbursement",
+      "linkUrl": "0",
+      "image": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/ace-designtemplate-gallery/images/benefits/gym.jpg"
+    },
+    {
+      "id": "1",
+      "title": "Life insurance",
+      "description": "Prudential is providing a one-time exception for you to increase your coverage without Evidence of Insurability.",
+      "isTeamsDeepLink": true,
+      "linkText": "Learn more about Life Insurance",
+      "linkUrl": "1",
+      "image": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/ace-designtemplate-gallery/images/benefits/outside.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Your workspace assignment beginning Stage 4",
+      "description": "If you have any questions or concerns about your schedule please see genes@microsoft.com.",
+      "isTeamsDeepLink": false,
+      "linkText": "",
+      "linkUrl": "",
+      "image": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/ace-designtemplate-gallery/images/benefits/office.jpg"
+    }
+
+  ]
+}

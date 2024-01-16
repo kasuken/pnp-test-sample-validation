@@ -1,0 +1,174 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "body": [{
+      "type": "Container"
+    },
+    {
+      "type": "Container",
+      "$data": "${years}",
+      "items": [{
+          "type": "TextBlock",
+          "text": "${$data}",
+          "wrap": true,
+          "size": "ExtraLarge",
+          "weight": "Bolder",
+          "spacing": "Medium"
+        },
+        {
+          "type": "TextBlock",
+          "$when": "${$data == $root.today}",
+          "text": "${$root.holidayCount[$index]} holidays remaining this year.",
+          "wrap": true,
+          "size": "Small"
+        },
+        {
+          "type": "TextBlock",
+          "$when": "${$data != $root.today}",
+          "text": "${$root.holidayCount[$index]} holidays will be celebrated this year.",
+          "wrap": true,
+          "size": "Small"
+        },
+        {
+          "type": "ColumnSet",
+          "$data": "${where($root.holidays, x, x.year == $data)}",
+          "columns": [{
+              "type": "Column",
+              "width": "40px",
+              "backgroundImage": {
+                "url": "${$root.timelineImage}",
+                "horizontalAlignment": "Center",
+                "fillMode": "RepeatVertically",
+                "type": "BackgroundImage"
+              },
+              "horizontalAlignment": "Right"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [{
+                "type": "Container",
+                "spacing": "None",
+                "minHeight": "4px",
+                "items": [{
+                    "type": "Container",
+                    "minHeight": "18px"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${dayLabel}",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "color": "Accent"
+                  },
+                  {
+                    "type": "Container",
+                    "$when": "${length(imageUrl) > 0}",
+                    "backgroundImage": {
+                      "url": "${imageUrl}",
+                      "horizontalAlignment": "Center",
+                      "verticalAlignment": "Center"
+                    },
+                    "minHeight": "160px",
+                    "spacing": "Medium"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${title}",
+                    "wrap": true,
+                    "size": "Large",
+                    "weight": "Bolder",
+                    "spacing": "Medium"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "{{DATE(${date}T00:00:00Z,LONG)}}",
+                    "wrap": true,
+                    "size": "Small",
+                    "isSubtle": true
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${text}",
+                    "wrap": true
+                  },
+                  {
+                    "type": "Container",
+                    "$when": "${holidayWeekend == true}",
+                    "items": [{
+                        "type": "TextBlock",
+                        "text": "${$root.strings.LongWeekendHeader}",
+                        "wrap": true,
+                        "weight": "Bolder",
+                        "size": "Small"
+                      },
+                      {
+                        "type": "TextBlock",
+                        "text": "${$root.strings.LongWeekendText} ${holidayWeekendFri} or ${holidayWeekendTue}. ${$root.strings.TimeOffText}",
+                        "wrap": true,
+                        "size": "Small"
+                      },
+                      {
+                        "type": "ColumnSet",
+                        "columns": [{
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [{
+                              "type": "ColumnSet",
+                              "columns": [{
+                                  "type": "Column",
+                                  "width": "32px",
+                                  "items": [{
+                                    "type": "Image",
+                                    "url": "${$root.timeoffIcon}",
+                                    "width": "20px",
+                                    "height": "20px"
+                                  }]
+                                },
+                                {
+                                  "type": "Column",
+                                  "width": "stretch",
+                                  "verticalContentAlignment": "Center",
+                                  "items": [{
+                                    "type": "TextBlock",
+                                    "text": "${$root.strings.TimeOffLinkText}",
+                                    "wrap": true,
+                                    "color": "Accent"
+                                  }]
+                                }
+                              ],
+                              "spacing": "Medium"
+                            }],
+                            "selectAction": {
+                              "type": "Action.OpenUrl",
+                              "url": "https://www.microsoft.com/en-us/about",
+                              "title": "${$root.strings.TimeOffLinkText}"
+                            },
+                            "minHeight": "24px",
+                            "verticalContentAlignment": "Center"
+                          },
+                          {
+                            "type": "Column",
+                            "width": "stretch"
+                          }
+                        ],
+                        "spacing": "Medium"
+                      }
+                    ],
+                    "style": "emphasis",
+                    "spacing": "Medium"
+                  }
+                ]
+              }]
+            },
+            {
+              "type": "Column",
+              "width": "16px"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

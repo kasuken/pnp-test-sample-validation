@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "room-reservation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/roomReservation/RoomReservationWebPart.js",
+          "manifest": "./src/webparts/roomReservation/RoomReservationWebPart.manifest.json"
+        }
+      ]
+    },
+    "room-reservation-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/roomReservation/RoomReservationAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/roomReservation/RoomReservationAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RoomReservationWebPartStrings": "lib/webparts/roomReservation/loc/{locale}.js",
+    "RoomReservationAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/roomReservation/loc/{locale}.js"
+  }
+}

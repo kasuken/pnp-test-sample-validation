@@ -1,0 +1,55 @@
+{
+  "imageCaption": "OFFICE",
+  "title": "Frequently Asked Questions",
+  "introContent": "Plan a remote gathering, create school projects, set health and fitness goals, and manage your household budget with the apps, tools, and features of Microsoft 365.",
+  "faqs": [{
+      "id": 0,
+      "question": "What Office apps do I get with Microsoft 365?",
+      "answer": "Get Office apps such as Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and more.\n\nLearn more about Microsoft 365 plans for:",
+      "icons": [{
+          "iconUrl": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/ace-designtemplate-gallery/images/faqaccordion/icn_home.svg",
+          "title": "Home",
+          "iconLink": "https://www.microsoft.com/en-us/microsoft-365/explore-microsoft-365-for-home",
+          "linkTitle": "Learn more"
+        },
+        {
+          "iconUrl": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/ace-designtemplate-gallery/images/faqaccordion/icn_business.svg",
+          "title": "Business",
+          "iconLink": "https://www.microsoft.com/en-us/microsoft-365/explore-microsoft-365-for-home",
+          "linkTitle": "Learn more"
+        }, {
+          "iconUrl": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/ace-designtemplate-gallery/images/faqaccordion/icn_enterprise.svg",
+          "title": "Enterprise",
+          "iconLink": "https://www.microsoft.com/en-us/microsoft-365/explore-microsoft-365-for-home",
+          "linkTitle": "Learn more"
+        }, {
+          "iconUrl": "https://raw.githubusercontent.com/pnp/spfx-reference-scenarios/main/samples/ace-designtemplate-gallery/images/faqaccordion/icn_education.svg",
+          "title": "Education",
+          "iconLink": "https://go.microsoft.com/fwlink/p/?LinkID=864773&clcid=0x409&culture=en-us&country=US",
+          "linkTitle": "Learn more"
+        }
+      ]
+
+    },
+    {
+      "id": 1,
+      "question": "What is the difference between Office 365 and Microsoft 365?",
+      "answer": "Microsoft 365 includes everything you know in Office 365. Microsoft 365 is designed to help people and businesses achieve more with innovative Office apps, intelligent cloud services, and world-class security."
+    },
+    {
+      "id": 2,
+      "question": "Is internet access required for Microsoft 365?",
+      "answer": "Yes, internet access is required to install and activate Microsoft 365 and get all the latest releases of apps and services.\n\nNote that if you are an existing subscriber, you do not need to reinstall or purchase another subscription.\n\nYou do not need to be connected to the Internet to use the Office apps, such as Word, Excel, and PowerPoint, because the apps are fully installed on your computer."
+    },
+    {
+      "id": 3,
+      "question": "What happens to existing Office 365 subscriptions for home and business?",
+      "answer": "Some Office 365 subscriptions automatically become Microsoft 365 subscriptions. No action required.\n\n- Office 365 Personal becomes Microsoft 365 Personal.\n- Office 365 Home becomes Microsoft 365 Family.\n- Office 365 Business Essentials becomes Microsoft 365 Business Basic.\n- Office 365 Business Premium becomes Microsoft 365 Business Standard.\n- Microsoft 365 Business becomes Microsoft 365 Business Premium.\n- Office 365 Business becomes Microsoft 365 Apps for business.\n- Office 365 ProPlus becomes Microsoft 365 Apps for enterprise.\n \n\nThere are no changes to the following Office 365 for enterprise plans:\n- Office 365 E1\n- Office 365 E3\n- Office 365 E5"
+    },
+    {
+      "id": 4,
+      "question": "Does Microsoft 365 cost more?",
+      "answer": "No, the subscription cost will not change."
+    }
+  ]
+}
