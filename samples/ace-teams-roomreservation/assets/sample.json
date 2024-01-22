@@ -11,11 +11,6 @@
     ],
     "creationDateTime": "2021-09-07",
     "updateDateTime": "2021-11-18",
-    "products": [
-      "SharePoint",
-      "Microsoft Teams",
-      "Viva"
-    ],
     "metadata": [
       {
         "key": "CLIENT-SIDE-DEV",
