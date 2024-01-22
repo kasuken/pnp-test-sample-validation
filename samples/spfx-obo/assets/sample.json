@@ -2,9 +2,6 @@
   {
     "name": "pnp-spfx-reference-scenarios-spfx-obo",
     "source": "pnp",
-    "title": "SPFx On-Behalf-Of flow",
-    "shortDescription": "This is a sample solution that illustrates how to consume a backend API via OBO flow when invoking a middleware from SPFx solution.",
-    "url": "https://github.com/pnp/spfx-reference-scenarios/tree/main/samples/spfx-obo",
     "longDescription": [
       "This is a sample solution that illustrates how to invoke a middleware Web API/service, from a SharePoint Framework solution, relying on the On-Behalf-Of (OBO) flow in order to consume a backend Web API/service."
     ],
